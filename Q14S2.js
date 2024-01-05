@@ -8,9 +8,6 @@ function length_words(string){
     words=words+1;
     return words;
 }
-
-
-
 function reverseWord(string){
     let arr = string.split(" ");
     let n=length_words(string);
